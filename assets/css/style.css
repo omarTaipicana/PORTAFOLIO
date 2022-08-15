@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    background-image: url("./assets/img/Group 98.svg");
+    background-color: black;
+    
+}
+
+
+.fa-solid{
+    color: white;
+
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    height: 40px;
+}
+
+.nav--menu{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    right: 0;
+    top: 40px;
+    min-height: calc(100vh - 40px);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem 1rem
+}
+
+.nav--item{
+    list-style: none;
+}
+
+.nav--link{
+    color: #adadad;
+    text-decoration: none;
+}
+
+.nav--menu.visible{
+    display: flex;
+}
+.foto{
+    display: flex;
+    height: 180px;
+    width: 150px;
+    border-radius: 100px;
+    margin: 1rem  auto auto; 
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto
+}
+.saludo{
+    font-size: 25px;
+    color: #dadada;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+}
+.subtitulo{
+    font-weight: normal;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    font-size: 25px
+}
+.parrafo-mi{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    color: #dadada;
+    line-height: 1.4;
+    padding-bottom: 4rem;    
+}
+
+.habilidades{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.habilidades-items{
+    text-align: center;
+}
+.habilidaes-items-text{
+    text-align: center;
+}

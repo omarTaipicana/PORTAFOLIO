@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
-
+@import url("./responsive.css");
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@
 .nav--item{
     list-style: none;
     background-color: transparent;
-    font-size: 20px;    
+    font-size: 25px;    
 }
 
 .nav--link{
@@ -209,3 +209,4 @@ h1{
     margin-inline: 0.5rem;
     color: #adadad;
 }
+

@@ -1,0 +1,114 @@
+
+@media screen and (min-width: 678px){
+
+
+    body{
+        padding-top: 0;
+        text-align: -webkit-center;
+
+    }
+    .nav{
+        margin-top: 0;
+        padding-top: 0;
+    }
+     .nav--menu{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        padding-top: 1rem;
+        margin-top: 0;
+        position: fixed;
+        justify-content: flex-end;
+        gap: 2rem;
+        background-color: black;
+        top: 0rem;
+        box-shadow: 0 1px 3px 0 #272829;
+        right: 8%;
+    }
+    .nav--item{
+        list-style: none;
+        background-color: transparent;
+        font-size: 16px;
+    }
+    #menu-icon{
+        display: none;
+    } 
+    .photo--content{
+        height: 400px;
+        margin-top: 3rem;
+        margin-bottom: 6rem;
+    }
+    .photo{
+        height: 400px;
+        width: 320px;
+        border-radius: 100%;
+    }
+    .redes-sociales{
+        max-width: 1200px;
+        padding-bottom:22rem ;
+    }
+    h1{
+        font-size: 90px;
+        text-align: center;
+        width: 600px;
+        padding-bottom: 3rem;
+    }
+    .saludo{
+        font-size: 60px;
+        color: #dadada;
+        background: center;
+    }
+    .subtitulo{
+        text-align: center;
+        font-size: 50px;
+    }
+    .redes-sociales-svg{
+        width: 100px;
+        height: 100px;
+    }
+    .redes-sociales{
+        column-gap: 4rem;
+    }
+    .parrafo-mi{
+        display: block;
+        font-size: 28px;
+        text-align: center;
+        color: #dadada;
+        line-height: 1.4;
+        background: center;   
+        width: 1200px;
+    }
+    .habilidades{
+        max-width: 900px;
+    }
+    .habilidades-items{
+        font-size: 28px;
+    }
+    .experience{
+        max-width: 1000px;
+    }
+    .experienc-content{
+        font-size: 28px;
+    }
+    .subtitulo-portafolio{
+        background-size: 180px;  
+        max-width: 1600px;    
+    }
+    .img-portafolio{
+        display: flex;
+        max-width: 1200px;
+        justify-content: center;
+    }
+    .ilustraciones{
+       width: 33%;
+    }
+    
+    .contacto{
+        max-width: 1000px;
+    }
+    .contacto-items-text{
+        font-size: 28px;
+        
+    } 
+
+}

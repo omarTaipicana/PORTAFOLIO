@@ -6,12 +6,11 @@
     box-sizing: border-box;
     color: white;
     font-family: 'Rubik', sans-serif;
-    background-color: black;
-    
+    background-color: black; 
 }
-
-
-
+body{
+    text-align: -webkit-center;
+}
 .fa-bars{
     color: white;
     font-size: 30px;
@@ -177,6 +176,10 @@ h1{
 .ilustraciones{
     width: 100%;
     padding: 1rem;
+}
+iframe{
+    max-width: 330px;
+    max-height: 270px;
 }
 .contacto{
     display: flex;

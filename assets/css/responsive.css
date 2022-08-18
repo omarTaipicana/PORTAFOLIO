@@ -69,6 +69,9 @@
     .redes-sociales{
         column-gap: 4rem;
     }
+    #acerca-de-mi{
+        padding-top: 4rem;
+    }
     .parrafo-mi{
         display: block;
         font-size: 28px;
@@ -78,11 +81,17 @@
         background: center;   
         width: 1200px;
     }
+    #habilidades{
+        padding-top: 4rem;
+    }
     .habilidades{
         max-width: 900px;
     }
     .habilidades-items{
         font-size: 28px;
+    }
+    #experiencia{
+        padding-top: 4rem;
     }
     .experience{
         max-width: 1000px;
@@ -102,7 +111,10 @@
     .ilustraciones{
        width: 33%;
     }
-    
+    iframe{
+        max-width: 900px;
+        max-height: 735px;
+    }
     .contacto{
         max-width: 1000px;
     }
